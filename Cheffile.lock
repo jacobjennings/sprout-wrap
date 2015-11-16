@@ -5,6 +5,19 @@ SITE
     dmg (2.2.2)
     homebrew (1.13.0)
       build-essential (>= 2.1.2)
+    now (0.3.2)
+    privacy_services_manager (1.1.0)
+      dmg (~> 2.2)
+
+GIT
+  remote: https://github.com/RoboticCheese/mac-app-store-chef
+  ref: master
+  sha: 66a1ff80af022a2a5e704b4ea4ba5dae4d4320a5
+  specs:
+    mac-app-store (1.1.1)
+      build-essential (~> 2.1)
+      now (~> 0.3)
+      privacy_services_manager (~> 1.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx
@@ -122,6 +135,7 @@ GIT
       sprout-base (>= 0.0.0)
 
 DEPENDENCIES
+  mac-app-store (>= 0)
   osx (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
