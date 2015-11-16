@@ -5,3 +5,15 @@ run script
 pip install aws things
 log in to dropbox
 sync dotfiles to dropbox
+
+install from MAS
+            { name: 'Xcode', bundle_id: 'com.apple.pkg.Xcode' },
+            { name: 'Slack', bundle_id: 'com.tinyspeck.slackmacgap' },
+            { name: 'Evernote', bundle_id: 'com.evernote.Evernote' },
+            { name: 'Telegram', bundle_id: 'ru.keepcoder.Telegram' },
+            { name: '1Password - Password Manager and Secure Wallet', bundle_id: 'com.agilebits.onepassword-osx' },
+            { name: 'xScope', bundle_id: '' },
+            { name: 'Kindle', bundle_id: 'com.amazon.Kindle' },
+            { name: 'Pixelmator'}
+
+            
