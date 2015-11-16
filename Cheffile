@@ -43,3 +43,8 @@ cookbook 'sprout-jetbrains-editors',
 
 cookbook 'mac-app-store',
   :github => 'RoboticCheese/mac-app-store-chef'
+
+cookbook 'poise-python'
+
+cookbook 'ruby_rbenv',
+  :github => 'chef-rbenv/ruby_rbenv'

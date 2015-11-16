@@ -5,6 +5,7 @@ recipes:
 - sprout-base::bash_it
 - sprout-base::homebrew
 - sprout-homebrew
+- ruby_rbenv
 
 node_attributes:
   rbenv:
@@ -34,7 +35,6 @@ node_attributes:
         - mysql
         - memcached
         - openssl
-        - python
         - sbt
         - go
         - ruby-build
@@ -42,7 +42,8 @@ node_attributes:
         - postgresql
         - protobuf
         - protobuf-swift
-        
+        - ack
+        - python
       casks:
         - virtualbox
         - appcode
@@ -65,14 +66,11 @@ node_attributes:
         - spotify
         - steam
         - colloquy
-  mac_app_store:
-    apps: [
-            { name: 'Xcode', bundle_id: 'com.apple.pkg.Xcode' },
-            { name: 'Slack', bundle_id: 'com.tinyspeck.slackmacgap' },
-            { name: 'Evernote', bundle_id: 'com.evernote.Evernote' },
-            { name: 'Telegram', bundle_id: 'ru.keepcoder.Telegram' },
-            { name: '1Password - Password Manager and Secure Wallet', bundle_id: 'com.agilebits.onepassword-osx' },
-            { name: 'xScope', bundle_id: '' },
-            { name: 'Kindle', bundle_id: 'com.amazon.Kindle' },
-            { name: 'Pixelmator'}
-          ]
+        - java
+        - origin
+        - battle-net
+        - facebook-ios-sdk
+        - blender
+        - bonjour-browser
+        - google-chrome
+        - cocoapods

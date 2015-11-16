@@ -1,0 +1,7 @@
+copy ssh keys
+sign in to app store
+give iterm permission for AX
+run script
+pip install aws things
+log in to dropbox
+sync dotfiles to dropbox

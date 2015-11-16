@@ -6,8 +6,15 @@ SITE
     homebrew (1.13.0)
       build-essential (>= 2.1.2)
     now (0.3.2)
+    poise (2.4.0)
+    poise-languages (1.2.0)
+      poise (~> 2.3)
+    poise-python (1.1.1)
+      poise (~> 2.0)
+      poise-languages (~> 1.2)
     privacy_services_manager (1.1.0)
       dmg (~> 2.2)
+    ruby_build (0.8.0)
 
 GIT
   remote: https://github.com/RoboticCheese/mac-app-store-chef
@@ -18,6 +25,14 @@ GIT
       build-essential (~> 2.1)
       now (~> 0.3)
       privacy_services_manager (~> 1.0)
+
+GIT
+  remote: https://github.com/chef-rbenv/ruby_rbenv
+  ref: master
+  sha: e8efda4649b843c6ef60a8cfe32794d3f52bd612
+  specs:
+    ruby_rbenv (1.0.1)
+      ruby_build (>= 0.0.0)
 
 GIT
   remote: https://github.com/pivotal-sprout/osx
@@ -137,6 +152,8 @@ GIT
 DEPENDENCIES
   mac-app-store (>= 0)
   osx (>= 0)
+  poise-python (>= 0)
+  ruby_rbenv (>= 0)
   sprout-base (>= 0)
   sprout-git (>= 0)
   sprout-homebrew (>= 0)
