@@ -74,3 +74,4 @@ node_attributes:
         - bonjour-browser
         - google-chrome
         - cocoapods
+        - eagle
